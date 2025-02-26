@@ -293,7 +293,7 @@ const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/
   
 
  const aitext = body; // Get the user's message text
-if (botNumber !== senderNumber && !isGroup && aitext && !aitext.startsWith('spell') && !aitext.startsWith('Spell')) { 
+if (botNumber !== senderNumber && !isGroup && aitext && !aitext.startsWith('spell') && !aitext.startsWith('menu')) { 
   // Prepare the Sinhala prompt for Gemini API
   const prompt = `You are connected to a WhatsApp English learning bot plugin. Your name is AIELT BOT in Sri Lanka. Use a youthful tone for Sinhala. Think of yourself as a professional English teacher. You were created by (Developer = Tharindu Liyanage).
 (Use very simple language English and සිංහල (Only share this information if asked)
@@ -387,7 +387,7 @@ Hope this helps! Let me know if you need any more information
 Coded By *@Tharindu Liyanage (Sanku)* _(Xnodes Development)_`
         }, { quoted: mek });
         } 
- if (body === 'spell' || body === 'spell') 
+ if (body.startsWith('Spell') || body.startsWith('spell')) 
   {     
 
             const sentence = body;
