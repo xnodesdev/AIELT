@@ -384,7 +384,7 @@ Spell Sentence
 
 Hope this helps! Let me know if you need any more information 
 
-Coded By `@Tharindu Liyanage` _(Xnodes Development)_`
+Coded By *@Tharindu Liyanage (Sanku)* _(Xnodes Development)_`
         }, { quoted: mek });
         } 
  if (body === 'spell' || body === 'spell') 
