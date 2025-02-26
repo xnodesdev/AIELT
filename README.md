@@ -1,107 +1,81 @@
-# ＧＡＲＦＩＥＬＤ ᴬᴵ ＢＯＴｖ10 🚀
+# AIELT Bot
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-v10.0-green.svg)](https://github.com/xnodesdev/GARFIELD-WHATSAPP-BOT-v10/releases)
+![AIELT Bot](https://raw.githubusercontent.com/xnodesdev/AIELT/refs/heads/master/data/Picsart_25-02-26_08-11-58-890.png)
 
-<p align="center">
-  <img src="https://github.com/Zenoixnoize/GARFIELD-WHATSAPP-BOT-v8/blob/asdf/Cloud/PicsArt_22-04-17_16-25-53-440.png" width="500">
-</p>
-<p align="center">
-  <img src="https://github.com/Zenoixnoize/GARFIELD-WHATSAPP-BOT-v8/blob/asdf/Cloud/PicsArt_22-04-15_10-13-49-205.png" width="500">
-</p>
+AIELT BOT (Artificial Intelligence English Language Learn Bot) is an English learning bot designed for WhatsApp. It is developed by Tharindu Liyanage (Sanku). The bot communicates in a modern, youthful, and friendly tone using both Sinhala and English. Its purpose is to help users improve their English language skills in various ways.
 
-## Introduction
-GARFIELD-WHATSAPP-BOT-v10 is a highly advanced and feature-rich WhatsApp bot designed to enhance your messaging experience. Developed by Xnodes Development and coded by Tharindu Liyanage, this bot offers a range of functionalities to make your interactions seamless and enjoyable. 
-<br>
+## Description
 
-<p align="left">
-  <img src="https://github.com/xnodesdev/GARFIELD-WHATSAPP-BOT-v10/blob/master/lib/Picsart_25-01-30_13-20-39-871.jpg" width="500">
-</p>
+*බොහෝ දෙනෙකු ඉංග්‍රීසි භාෂාවෙන් කතා කිරීමට පැකිලෙන්නේ, වැරදීමකදී අන් අයගේ විහිළුවට හෝ සමච්චලයට ලක් වීමේ බිය නිසාය. මෙම ගැටලුවට විසඳුමක් ලෙස මෙය ඉදිරිපත් කර ඇත.*
 
-## Features ✨
-- **Automated Replies:** Customizable automated replies to common messages. 🤖
-- **Media Support:** Send and receive images, videos, and documents. 📷🎥📄
-- **Group Management:** Efficiently manage WhatsApp groups with various admin features. 👥🔧
-- **APIs Integration:** Integration with multiple APIs for extended functionalities. 🔗
-- **Voice Replies:** Support for voice commands using Google TTS API. 🎤
-- **Custom Commands:** Easily add and configure custom commands. 🛠️
+Certainly, ${pushname}! 🌟 Here's the information about the bot:
 
-## Installation 🛠️
-To get started with ＧＡＲＦＩＥＬＤ ＢＯＴ v10, follow these steps:
+### Key Features
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/xnodesdev/GARFIELD-WHATSAPP-BOT-v10.git
-   cd GARFIELD-WHATSAPP-BOT-v10
-   ```
+1. **Support for English Proficiency** 🏆: If you speak good English, the bot will praise and encourage you.
+2. **Error Correction** 🛠️: If you make mistakes, the bot will point them out and provide correct examples.
+3. **Clear Explanations in Sinhala** 🌐: If you are not very proficient in English, the bot will explain things clearly in Sinhala.
+4. **Reprimanding Unnecessary Messages** 🚫: If you send unnecessary messages, the bot will reprimand you.
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+### Spelling Sentences 🔊
 
-3. **Configure the bot:**
-   Update the `config.js` file with your WhatsApp credentials and API keys. 🔑
+To use the spelling feature, send the command `Spell Sentence`.
 
-## Editing `config.js` 🔧
-1. Open the `config.js` file in your preferred text editor.
-2. Replace the placeholder values with your actual credentials and API keys.
-3. Save the changes and close the file.
+**Example:**
 
-```javascript
-module.exports = {
-  sessionId: "your-session-id",
-  apiKey: "your-api-key",
-  phoneNumber: "your-phone-number",
-  // Add other configuration settings as needed
-};
-```
+`Spell How are you`
 
-4. **Run the bot:**
-   ```bash
-   node index.js
-   ```
+### Conversation Flow
 
-## Hosting 🌐
-Deploy your bot using one of these popular hosting services:
+The bot maintains a natural and engaging conversation flow to make learning more interactive and enjoyable. It utilizes various prompts and responses to keep the user engaged and motivated.
 
-<a href="https://heroku.com/deploy" style="display:inline-block;margin:10px;"><img src="https://img.shields.io/badge/Deploy-Heroku-purple.svg?logo=heroku" style="height:50px;"></a>
-<a href="https://panel.io/deploy" style="display:inline-block;margin:10px;"><img src="https://img.shields.io/badge/Deploy-Panel-red.svg?logo=panel" style="height:50px;"></a>
-<a href="https://app.koyeb.com/deploy" style="display:inline-block;margin:10px;"><img src="https://img.shields.io/badge/Deploy-Koyeb-blue.svg?logo=koyeb" style="height:50px;"></a>
+### Additional Features
 
-## Click to Pair Device
-[![Pair Device](https://github.com/xnodesdev/GARFIELD-WHATSAPP-BOT-v10/blob/master/lib/Picsart_25-02-10_09-45-58-194.png)](https://confidential-randee-xnodesdves-d676b79b.koyeb.app/)
+- **Vocabulary Enhancement** 📚: Provides new words with meanings and usage examples to expand your vocabulary.
+- **Grammar Tips** 📝: Offers grammar rules and tips to help you construct correct sentences.
+- **Practice Exercises** 💪: Gives exercises to practice what you have learned, including quizzes and sentence completion.
+- **Feedback Mechanism** 🔄: Allows users to provide feedback on the bot's responses and suggest improvements.
 
-## Neural AI and සිංහල AI Chat Feature
-<p align="center">
-  <img src="https://camo.githubusercontent.com/4ccb106355cfba7541b707fac4319477a694ed180228df23b1c9325994e5841e/68747470733a2f2f692e6962622e636f2f54634c56664d5a2f506963736172742d32322d30382d32322d31352d32312d34312d3137352e706e67" width="500">
-</p>
+### Privacy and Data Security
 
-## Usage 📲
-Once the bot is up and running, you can interact with it through WhatsApp by sending commands and messages. Here are some examples:
+- The bot respects your privacy and does not share your personal information with third parties.
+- Conversations are confidential and used only to improve the bot's performance.
 
-- **Automated Replies:** Send "Hi" to receive an automated greeting message. 👋
-- **Send Media:** Send an image to receive an automated response with a caption. 🖼️
-- **Voice Replies:** Say "Hi" to trigger a voice response. 🗣️
-- **Get Menu:** Send `.menu or .allmenu` to receive the bot's command menu. 📜
+### How to Use
 
-## Contributing 💡
-We welcome contributions from the community! If you would like to contribute, please follow these steps:
+1. Add the bot's number to your WhatsApp contacts.
+2. Start a chat and send any message to initiate the conversation.
+3. Follow the prompts and enjoy learning English!
 
-1. Fork the repository. 🍴
-2. Create a new branch (`git checkout -b feature-branch`). 🌿
-3. Make your changes and commit them (`git commit -m 'Add new feature'`). ✨
-4. Push to the branch (`git push origin feature-branch`). 🚀
-5. Open a pull request. 🔄
+### Technical Details
 
-## License 📜
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Technology Stack**: Node.js, WhatsApp API, ffmpeg for media processing.
+- **Deployment**: Docker and Netlify for efficient and scalable deployment.
+- **Version Control**: The project is version-controlled using Git and hosted on GitHub.
 
-## Acknowledgements 🙌
-- All contributors and users who have supported the project.
+### Installation
 
-## Developer
-**Xnodes Development** 👨‍💻👩‍💻
+To set up the bot locally, follow these steps:
 
-## Coded by
-**Tharindu Liyanage** 👾
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/xnodesdev/AIELT.git
+    ```
+
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
+
+3. Configure environment variables:
+    - Create a `.env` file with the necessary configuration values (e.g., WhatsApp API credentials, Docker settings).
+
+4. Run the bot:
+    ```sh
+    npm start
+    ```
+
+### Developed By
+
+Coded By `@Tharindu Liyanage` _(Xnodes Development)_
+
