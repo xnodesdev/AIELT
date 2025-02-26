@@ -1,3 +1,5 @@
+[![Chat on WhatsApp](https://raw.githubusercontent.com/xnodesdev/AIELT/refs/heads/master/data/Picsart_25-02-26_12-05-46-040.png)](https://wa.me/94712882498?text=AIELT%20Bot%20Menu)
+
 # AIELT Bot
 
 ![AIELT Bot](https://raw.githubusercontent.com/xnodesdev/AIELT/refs/heads/master/data/Picsart_25-02-26_08-11-58-890.png)
@@ -74,7 +76,9 @@ To set up the bot locally, follow these steps:
     ```sh
     npm start
     ```
+
 ## Hosting 🌐
+
 Deploy your bot using one of these popular hosting services:
 
 <a href="https://heroku.com/deploy" style="display:inline-block;margin:10px;"><img src="https://img.shields.io/badge/Deploy-Heroku-purple.svg?logo=heroku" style="height:50px;"></a>
@@ -84,9 +88,9 @@ Deploy your bot using one of these popular hosting services:
 ## Click to Pair Device
 [![Pair Device](https://github.com/xnodesdev/GARFIELD-WHATSAPP-BOT-v10/blob/master/lib/Picsart_25-02-10_09-45-58-194.png)](https://confidential-randee-xnodesdves-d676b79b.koyeb.app/)
 
-
-
 ### Developed By
 
 Coded By `@Tharindu Liyanage` _(Xnodes Development)_
+
+**You can access the bot menu send via the menu message option.**
 
