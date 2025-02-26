@@ -1,4 +1,4 @@
-[![Chat on WhatsApp](https://raw.githubusercontent.com/xnodesdev/AIELT/refs/heads/master/data/Picsart_25-02-26_12-05-46-040.png)](https://wa.me/94712882498?text=AIELT%20Bot%20Menu)
+[![Chat on WhatsApp](https://raw.githubusercontent.com/xnodesdev/AIELT/refs/heads/master/data/Picsart_25-02-26_12-05-46-040.png)](https://wa.me/94712882498?text=menu)
 
 # AIELT Bot
 
