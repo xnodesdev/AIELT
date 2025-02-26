@@ -115,7 +115,7 @@ const port = process.env.PORT || 9090;
   console.log('ＡＩＥＬＴ ＩＳ ＷＯＲＫＩＮＧ 🔠 ')
   
   let up = `⭕►▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-   ▎ ＧＡＲＦＩＥＬＤ ＢＯＴ
+   ▎ ENGLISH AI
    ▁▁▁▁▁▁▁▁▁▁▁▁▁▁
  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 ▎ 
@@ -356,7 +356,7 @@ if (body === 'menu' || body === 'info' || body === 'Panel' || body === 'Menu')
   {     
 
         await conn.sendMessage(from, { 
-            image: { url: 'https://raw.githubusercontent.com/xnodesdev/GARFIELD-WHATSAPP-BOT-v10/refs/heads/master/lib/Picsart_25-01-30_13-20-39-871.jpg' },
+            image: { url: 'https://raw.githubusercontent.com/xnodesdev/AIELT/refs/heads/master/data/Picsart_25-02-26_08-11-58-890.png' },
             caption: `*බොහෝ දෙනෙකු ඉංග්‍රීසි භාෂාවෙන් කතා කිරීමට පැකිලෙන්නේ, වැරදීමකදී අන් අයගේ විහිළුවට හෝ සමච්චලයට ලක් වීමේ බිය නිසාය. මෙම ගැටලුවට විසඳුමක් ලෙස මෙය ඉදිරිපත් කර ඇත.* 
 
 Certainly, ${pushname} ! 🌟 Here's the information about the bot
@@ -364,6 +364,11 @@ Certainly, ${pushname} ! 🌟 Here's the information about the bot
 *Bot Description:*
 I am *AIELT BOT*
 *(Artificial Intelligence English Language Learn Bot)* , an English learning bot designed for WhatsApp. I communicate in a modern, youthful, and friendly tone using both Sinhala and English. My purpose is to help you improve your English language skills in various ways.
+
+*Spelling Sentences*🔊
+Spell Sentence 
+*Example*
+     Spell How are you
 
 *Key Features:*
 1. *Support for English Proficiency* 🏆: If you speak good English, I will praise and encourage you.
@@ -378,7 +383,7 @@ I am *AIELT BOT*
 
 Hope this helps! Let me know if you need any more information 
 
-Coded By @Tharindu Liyanage(Sanku) _(Xnodes Development)_`
+Coded By `@Tharindu Liyanage` _(Xnodes Development)_`
         }, { quoted: mek });
         } 
  
