@@ -386,7 +386,36 @@ Hope this helps! Let me know if you need any more information
 Coded By `@Tharindu Liyanage` _(Xnodes Development)_`
         }, { quoted: mek });
         } 
- 
+ if (body === 'spell' || body === 'spell') 
+  {     
+
+            const sentence = body;
+const modifiedSentence = sentence.split(' ').slice(1).join(' ');
+ // Output: "How are you"
+            // Generate TTS voice message
+            const ttsText = modifiedSentence;
+            const ttsUrl = googleTTS.getAudioUrl(ttsText, {
+                lang: 'en',
+                slow: false,
+                host: 'https://translate.google.com',
+            });
+
+            // Download the TTS audio
+            const response = await axios.get(ttsUrl, { responseType: 'arraybuffer' });
+            const ttsBuffer = Buffer.from(response.data, 'binary');
+            const ttsFilePath = 'tts_hi.mp3';
+            fs.writeFileSync(ttsFilePath, ttsBuffer);
+
+            // Send TTS voice message
+            await conn.sendMessage(from, {
+                audio: { url: ttsFilePath },
+                mimetype: "audio/mp4",
+                ptt: true
+            }, { quoted: mek });
+
+            // Clean up the temporary TTS file
+            fs.unlinkSync(ttsFilePath);
+         } 
 
   //==========WORKTYPE============ 
   if(!isOwner && config.MODE === "private") return
