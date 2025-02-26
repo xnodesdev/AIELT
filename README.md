@@ -74,6 +74,17 @@ To set up the bot locally, follow these steps:
     ```sh
     npm start
     ```
+## Hosting 🌐
+Deploy your bot using one of these popular hosting services:
+
+<a href="https://heroku.com/deploy" style="display:inline-block;margin:10px;"><img src="https://img.shields.io/badge/Deploy-Heroku-purple.svg?logo=heroku" style="height:50px;"></a>
+<a href="https://panel.io/deploy" style="display:inline-block;margin:10px;"><img src="https://img.shields.io/badge/Deploy-Panel-red.svg?logo=panel" style="height:50px;"></a>
+<a href="https://app.koyeb.com/deploy" style="display:inline-block;margin:10px;"><img src="https://img.shields.io/badge/Deploy-Koyeb-blue.svg?logo=koyeb" style="height:50px;"></a>
+
+## Click to Pair Device
+[![Pair Device](https://github.com/xnodesdev/GARFIELD-WHATSAPP-BOT-v10/blob/master/lib/Picsart_25-02-10_09-45-58-194.png)](https://confidential-randee-xnodesdves-d676b79b.koyeb.app/)
+
+
 
 ### Developed By
 
